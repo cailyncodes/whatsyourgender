@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What's your gender?</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="title brand">What's your gender?</div>
+            <nav>
+                <ul>
+                    <li><a href="#responses">Responses</a></li>
+                    <li><a href="#sources">Sources</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1><span class="brand">What's your gender?</span></h1>
+                <p><span class="brand">What's your gender?</span> is a resource website for survey designers. This website describes best practices for designing a survey as it relates to asking respondents about their gender. Follow the questions below as you are designing your survey.</p>
+                <p>If you are reading this page after seeing it as an answer to a survey question, it means a respondent felt your survey didn't meet these best practices for inclusion. Please consider changing your survey in the future. See the section <a href="#responses">"Responses to Survey"</a> for how to still collect data about the respondent's gender.</p>
+                <h2>Do I need to ask for gender on my survey?</h2>
+                <p>Before discussing how to write an inclusive question asking for respondent's gender, first ask whether it is even necessary to collect a respondent's gender.</p>
+                <p>Questions to ask yourself include:</p>
+                <ul>
+                    <li>What is the rationale for asking about gender on the particular form?</li>
+                    <li>Will this data provide insights necessary to improve the thing being studied?</li>
+                    <li>How does asking for the data relate to your organization's overall diversity strategy?</li>
+                    <li>How will that data be used, protected and reported? What legal restrictions might there be on collection or storage of demographic data?</li>
+                </ul>
+                <p>If there isn't a compelling reason or this data doesn't actually help improve the final outcome, consider excluding the question. If it is necessary, the justification and rationale should be included on the survey.</p>
+                <h2>How should the question be phrased?</h2>
+                <p>If collecting the data is necessary, there are ways the question can be written to be more inclusive. Generally, the data being sought is not the sex of the respondent but their gender. Therefore, only in exceptional circumstances should the question include the word "sex". Instead, ask the respondent about their gender. Further, you should simply ask about gender not gender identity. Often the phrase gender identity is used to delegitimze trans and non-binary narratives by implying that gender is more closely related to sex. Unless the survey is explicit in how it differentiates gender from gender identity, simply ask about gender.</p>
+                <p>Often people may not be aware of how these terms are being used or defined. In order to resolve confusions and also potentially educate respondents, definitions should be included as appropriate. Potential examples include:</p>
+                <ul>
+                    <li>Gender is one's internal sense of being male, female, neither of these, both, or another gender(s). Everyone has a gender identity. A person's gender is different, and not necessarily related, to a person's sex or gender expression. (Modified from <a href="http://www.transstudent.org/gender/">http://www.transstudent.org/gender/</a>)</li>
+                    <li>Transgender is an umbrella term for people whose gender identity and/or gender expression differs from what is typically associated with the sex they were assigned at birth. People under the transgender umbrella may describe themselves using one or more of a wide variety of terms - including transgender. Other identities considered to fall under this umbrella can include non-binary, gender fluid, and genderqueer - as well as many more. (Modified from <a href=https://www.glaad.org/reference/transgender">https://www.glaad.org/reference/transgender</a>)</li>
+                </ul>
+                <h2>How should respondents be allowed to answer?</h2>
+                <p>The best way to collect data is to allow respondents to enter their own gender in an open-ended text field. Gender is not a binary and moreover is more complex than even a spectrum. It is impossible to restrict genders to a predefined list. Therefore, you should allow respondents to enter their own gender without restriction.</p>
+                <h2>If I need predefined options, how do I make sure they are the most inclusive?</h2>
+                <p>Allowing open-ended responses presents a potential difficulty in understanding and interpreting the responses. While it is possible to code the data after open-ended responses, the cost is potentially prohibitive. If a restricted list is absolutely necessary, there are some best practices to follow.</p>
+                <ul>
+                    <li>You should always still include an open-ended text field. It is important to not require people to identify with a rigid category.</li>
+                    <li>Your options should explicitly include "Nonbinary".</li>
+                    <li>Your options should explicitly include "Prefer not to say". Not everyone is comfortable disclosing this information, even if you have strong confidentiality protections.</li>
+                    <li>Do not have "transgender" as an option.  Transgender is not a gender.</li>
+                    <li>Do not use "transgender" as an adjective on an option. Transgender men are men, and transgeder women are women. It is not a separate gender.</li>
+                </ul>
+                <h2>Sample Survey Questions</h2>
+                <div>
+                    <h3>What is your gender?</h3>
+                    <p>Gender is one's internal sense of being male, female, neither of these, both, or another gender(s). Everyone has a gender identity. A person's gender is different, and not necessarily related, to a person's sex or gender expression. (Modified from <a href="http://www.transstudent.org/gender/">http://www.transstudent.org/gender/</a>)</p>
+                    <p><label for="sample-gender">Question 1: What is your gender? </label><input type="text" id="sample-gender" /></p>
+                </div>
+                <div>
+                    <h3>Do you identify as transgender?</h3>
+                    <p>Transgender is an umbrella term for people whose gender identity and/or gender expression differs from what is typically associated with the sex they were assigned at birth. People under the transgender umbrella may describe themselves using one or more of a wide variety of terms - including transgender. Other identities considered to fall under this umbrella can include non-binary, gender fluid, and genderqueer - as well as many more. (Modified from <a href=https://www.glaad.org/reference/transgender">https://www.glaad.org/reference/transgender</a>)</p>
+                    <label for="sample-trans">Question 2: Do you identify as transgender?</label><br />
+                    <input type="radio" />Yes<br />
+                    <input type="radio" />No<br />
+                    <input type="radio" />Unsure<br />
+                    <input type="radio" />Prefer not to say<br />
+                    <p></p>
+                </div>
+            </article>
+            <article id="responses">
+                <h1>Responses to Survey</h1>
+                <h2>What is this URL in my survey response?</h2>
+                <p>If you are reviewing the responses to your survey and see a URL (e.g. http://whatsyourgender.com?gender=male&trans=yes), that means a respondent felt like you could have made your survey more inclusive. Please see the <a href="#">preceding section</a> for information on how to do that. The URL is designed to still allow you to collect data from it though. You'll (hopefully) notice some text after a question mark (?) in the URL. It should include "gender=[some text]" and "trans=[other text]". The value of "some text" is the URI encoded text of this respondent's self-described gender (Question 1 from above). The value of "other text" is the URI encoded text of the respondent's response to whether they identify themselves as transgender (Question 2 from above).</p>
+                <p><a href="https://www.url-encode-decode.com/">Website to encode/decode URI text</a></p>
+                <h2>How to respond to a survey that is not inclusive?</h2>
+                <p>
+                    <p>Use this form below to generate a response to a survey that is not inclusive while still enabling the survey to collect valuable data. Simply copy and paste the URL that is generated below after you enter your data and click/tap "Generate".</p>
+                    <form action="#">
+                        <formgroup>
+                            <label for="gender">What is your gender?</label>
+                            <input type="text" id="gender" name="gender" />
+                        </formgroup>
+                        <formgroup>
+                            <label for="trans">Do you identify as transgender?</label>
+                            <select id="trans" name="trans">
+                                <option selected="selected">--</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                                <option>Unsure</option>
+                                <option>Prefer not to say</option>
+                            </select>
+                        </formgroup>
+                        <formgroup>
+                            <button type="submit" id="generate">Generate URL</button>
+                            <button type="button" id="clear">Clear</button>
+                        </formgroup>
+                    </form>
+                    <p id="gender-url"></p>
+                </p>
+            </article>
+            <article id="sources">
+                <h1>Sources</h1>
+                <ol>
+                    <li><a href="https://www.hrc.org/resources/collecting-transgender-inclusive-gender-data-in-workplace-and-other-surveys">https://www.hrc.org/resources/collecting-transgender-inclusive-gender-data-in-workplace-and-other-surveys</a></li>
+                    <li><a href="http://www.transstudent.org/gender/">http://www.transstudent.org/gender/</a></li>
+                    <li><a href="https://www.glaad.org/reference/transgender">https://www.glaad.org/reference/transgender</a></li>
+                </ol>
+            </article>
+            <article id="about">
+                <h1>About</h1>
+                <p>I'm a trans woman who was propelled to create this website after receiving a survey from my university with options that were not inclusive for the "What is your gender?" question. This hasn't been the first time I have been faced with bad survey design but finally decided to do something. I envision completing surveys that are not fully inclusive by entering "whatsyourgender.com" in the text box (if there is one). I also have added the ability to encode your gender in the URL so as not to underrepresent respondents who decide to use this approach. I am always open feedback and suggestions. Please check out the <a href="#contact">contact section</a> for more details.</p>
+            </article>
+            <article id="contact">
+                <h1>Contact</h1>
+                <p>This is a living document and changes and suggestions are always welcome. Please send an email to <a href="mailto:cailyn.e.hansen@gmail.com">cailyn.e.hansen@gmail.com</a></p>
+            </article>
+        </main>
+        <footer>
+            <div>Produced by <a href="http://cailynhansen.com" target="_blank">Cailyn Hansen</a> | <a href="https://github.com/cailyncodes/whatsyourgender/blob/master/LICENSE" target="_blank">Dedicated to the public domain as permitted by law.</a></div>
+        </footer>
+        <script src="js/generator.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
